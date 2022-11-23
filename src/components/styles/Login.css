@@ -1,0 +1,29 @@
+.login-screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+  justify-content: center;
+
+}
+
+.input-container {
+  margin: 1%;
+  display: flex;
+}
+
+.input-container input {
+  margin-left: 1%;
+}
+
+.login-screen button {
+  padding: 0 1%;
+  cursor: pointer;
+}
+
+.invalid {
+  color: red;
+}

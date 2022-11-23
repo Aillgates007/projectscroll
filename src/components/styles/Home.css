@@ -1,0 +1,46 @@
+.home-screen {
+  padding: 5%;
+}
+
+body {
+	background: linear-gradient(-45deg, #024917, #9de73c, #02775a, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 00% 100%
+	}
+}
+
+.user {
+  display: inline-block;
+  align-items: center;
+  padding: 2%;
+  justify-content: space-between;
+  border: 0px solid #f09d9d;
+  font-size: 0.9rem;
+  margin: 15px 0;
+}
+
+.logout-btn-container {
+  width: 100%;
+}
+
+.logout-btn-container button {
+  float: right;
+}
+
+@media only screen and (max-width: 320px) {
+  .user {
+    font-size: 0.5rem;
+  }
+}
